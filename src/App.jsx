@@ -12,7 +12,7 @@ class Profile extends Component{
     }
   }
   async componentDidMount(){
-    const profile = await fetch('https://api.github.com/users/octocat');
+    const profile = await fetch('https://api.github.com/users/SeyidMk');
     const profileJSON = await profile.json();
 
     if(profileJSON){
